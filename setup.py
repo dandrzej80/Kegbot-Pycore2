@@ -17,7 +17,7 @@ def setup_package():
       version = VERSION,
       description = SHORT_DESCRIPTION,
       long_description = LONG_DESCRIPTION,
-      author = 'Bevbot LLC',
+      author = 'Bevbot LLC (updated by dandrzej80)',
       author_email = 'info@bevbot.com',
       url = 'https://kegbot.org/docs/pycore',
       packages = find_packages(exclude=['testdata']),
@@ -32,7 +32,7 @@ def setup_package():
       install_requires = [
         'kegbot-pyutils == 0.1.7',
         'kegbot-api >= 0.1.17',
-        'kegbot-kegboard == 1.1.5',
+        'kegbot-kegboard2 == 1.1.5',
         'redis >= 2.9.1, < 3.0',
 
         'python-gflags == 2.0',
