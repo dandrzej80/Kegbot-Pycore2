@@ -13,7 +13,7 @@ LONG_DESCRIPTION = '\n'.join(DOCLINES[2:])
 
 def setup_package():
   setup(
-      name = 'kegbot-pycore',
+      name = 'kegbot-pycore2',
       version = VERSION,
       description = SHORT_DESCRIPTION,
       long_description = LONG_DESCRIPTION,
@@ -32,7 +32,7 @@ def setup_package():
       install_requires = [
         'kegbot-pyutils == 0.1.7',
         'kegbot-api >= 0.1.17',
-        'kegbot-kegboard == 1.1.2',
+        'kegbot-kegboard == 1.1.5',
         'redis >= 2.9.1, < 3.0',
 
         'python-gflags == 2.0',
