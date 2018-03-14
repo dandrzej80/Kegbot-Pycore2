@@ -1,0 +1,13 @@
+language: python
+python:
+  - "2.7"
+
+services:
+  - redis-server
+
+install:
+  - pip install nose --use-mirrors
+  - pip install . --use-mirrors
+
+script:
+  - nosetests  --traverse-namespace --first-package-wins -e "^kegboard|^util"
